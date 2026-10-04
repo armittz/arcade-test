@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Little Arcade</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:32px 20px;background:radial-gradient(ellipse at 50% 0%,#302a53,#101322 70%);color:#fff7e8;font-family:system-ui,sans-serif}main{width:min(1000px,100%)}header{text-align:center;margin-bottom:44px}.eyebrow{font-size:11px;letter-spacing:5px;color:#c1ace8}h1{font-size:clamp(40px,7vw,68px);letter-spacing:-3px;margin:12px 0}p{color:#b8b6cd;font-size:16px}.games{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.game{display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:center;min-height:310px;padding:30px 20px;border:1px solid #ffffff26;border-radius:24px;text-decoration:none;color:inherit;background:linear-gradient(150deg,#ffffff10,#ffffff03);box-shadow:0 18px 45px #0002;transition:transform .2s,border-color .2s,background .2s}.game:hover{transform:translateY(-7px);border-color:var(--accent);background:linear-gradient(150deg,#ffffff19,#ffffff08)}.game:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.icon{font-size:66px;display:grid;place-items:center;width:120px;height:120px;background:#ffffff07;border-radius:30px;margin-bottom:24px}.game h2{font-size:23px;letter-spacing:-.5px;margin:0 0 12px}.play{font-size:13px;font-weight:650;color:var(--accent)}footer{text-align:center;font-size:12px;color:#858399;margin-top:38px}@media(max-width:650px){.games{grid-template-columns:1fr}.game{min-height:170px;padding:23px}.icon{font-size:44px;width:75px;height:75px;margin-bottom:12px}.game h2{font-size:21px}header{margin-bottom:28px}h1{letter-spacing:-2px}}@media(prefers-reduced-motion:reduce){.game{transition:none}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">PICK A GAME. PRESS PLAY.</div><h1>Little Arcade<span style="color:#cbb0f4">.</span></h1><p>Your next little adventure starts here.</p></header>
+<nav class="games" aria-label="Choose a game">
+<a class="game" href="game1.html" style="--accent:#ffdc86"><span class="icon" aria-hidden="true">🌟</span><h2>Starlight Catch</h2><span class="play">Play →</span></a>
+<a class="game" href="game2.html" style="--accent:#9de5ee"><span class="icon" aria-hidden="true">🚀</span><h2>Rocket Explorer</h2><span class="play">Play →</span></a>
+<a class="game" href="game3.html" style="--accent:#ffbd96"><span class="icon" aria-hidden="true">🍕</span><h2>Slice &amp; Streets</h2><span class="play">Play →</span></a>
+</nav><footer>Three games. One happy place.</footer>
+</main></body>
+</html>
